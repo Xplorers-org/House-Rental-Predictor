@@ -1,3 +1,5 @@
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from routers.predict import router
 
