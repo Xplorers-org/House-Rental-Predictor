@@ -1,0 +1,58 @@
+# --- General Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Python Environment and Dependencies ---
+# Virtual environment folders
+venv/
+.venv/
+env/
+
+# Byte-code and temporary files
+*.pyc
+__pycache__/
+
+# Distribution/packaging
+dist/
+build/
+*.egg-info/
+.tox/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-log.txt
+
+# --- Jupyter/IPython Notebook Files ---
+# Temporary notebooks created by autosave
+.ipynb_checkpoints
+
+# Specific state files (often harmless, but can be ignored if they cause conflicts)
+# .jupyter
+
+# --- IDE and Editor Files (e.g., VS Code, PyCharm) ---
+.idea/
+.vscode/
+
+# --- Data/Machine Learning Artifacts ---
+# Model checkpoints and trained models
+# IMPORTANT: If your model is small and you explicitly want to track it, comment these out.
+# For large models, it is highly recommended to use Git LFS instead of tracking directly.
+*.h5
+*.tf
+*.pt
+*.pth
+*.pkl
+*.joblib
+model_weights.*
+checkpoint/
+
+# Data directories (Often too large to track in Git. Use a separate system like DVC.)
+data/
+datasets/
+raw_data/
+processed_data/
+
+# Log files and TensorBoard data
+logs/
+runs/
+tb_logs/
