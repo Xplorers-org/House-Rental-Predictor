@@ -1,0 +1,1 @@
+# include rent_prediction_model.pkl in this directory
