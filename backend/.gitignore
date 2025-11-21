@@ -1,0 +1,65 @@
+# Environment variables
+.env
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# models
+rent_prediction_model.pkl
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.venv-backend/
+.env/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# Logs
+*.log
+logs/
+
+# Testing related files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# FastAPI specific
+*.pid
+instance/
+
+# FastAPI Cloud specific (if applicable)
+.fastapicloudignore # If you're using FastAPI Cloud for deployments
